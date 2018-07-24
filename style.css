@@ -1,0 +1,43 @@
+body {
+	background-image: url(background.jpg);
+	position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color:white;
+
+}
+h1 {font-family: monoton;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 100px;
+	color: #f73636;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+	padding:1.2vw 3vw;
+	font-size: 2em; 
+	color: white;
+	background-color: #b5b4d0;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 10px;
+	font-family: "poiret one";
+	border: 4px solid #b5b4d0;
+	cursor: pointer;
+	/*box-shadow: 10px 10px 10px grey;*/
+	
+}
+#mc-embedded-subscribe:hover {
+	background-color: white;
+	color: red;
+	transform: scale(1.1);
+	transition: 1s;
+}
