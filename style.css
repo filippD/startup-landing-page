@@ -5,6 +5,8 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	color:white;
+	height: 100%
+	width:100%;
 
 }
 h1 {font-family: monoton;
